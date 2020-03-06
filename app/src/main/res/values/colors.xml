@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B60089</color>
+    <color name="colorPrimaryDark">#8A0266</color>
+    <color name="colorAccent">#FE2BD0</color>
+    <color name="parpolishgrei">#644B5E</color>
+    <color name="dastiwait">#EBEBEB</color>
+    <color name="dastivlak">#262525</color>
+    <color name="veriparpol">#97397D</color>
+    <color name="lezparpol">#B2108D</color>
+    <color name="pinqui">#C50390</color>
+    <color name="leastpinc">#EF029D</color>
+    <color name="anodaParpol">#9E2E81</color>
+
+
+</resources>

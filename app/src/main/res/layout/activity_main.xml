@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/parpolishgrei">
+
+    <!-- Here you put the rest of your current view-->
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="461dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/the_cheezery">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/parpolishgrei"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome"
+                android:fontFamily="@string/light"
+                android:textColor="@color/dastiwait"
+                android:textAlignment="center"
+                android:textSize="@dimen/titleSize"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:paddingHorizontal="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:fontFamily="@string/light"
+                android:textColor="@color/dastiwait"
+                android:textAlignment="center"
+                android:textSize="@dimen/regText"
+                android:textStyle="italic"/>
+            <Button
+                android:id="@+id/botonp"
+                android:layout_marginTop="20dp"
+                android:layout_width="219dp"
+                android:layout_height="33dp"
+                android:background="@drawable/round_button"
+                android:text="@string/get_started"
+                android:textColor="@color/dastiwait"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+        <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    -->
+    </LinearLayout>
+</ScrollView>
